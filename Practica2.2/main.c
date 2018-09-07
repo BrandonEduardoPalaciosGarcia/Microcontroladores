@@ -7,10 +7,10 @@
 
 // I/O List
 //Inputs************************************************************************
-
+//Botones en RA5 y RA7
 
 //Outputs*************************************************************
-
+//Leds en RC4 y RC6
 
 // 1. Sección Directivas pre-proceso
 // Incluir librerías
@@ -45,7 +45,7 @@ void main(void) {
     TRISCbits.TRISC6=0; //Puerto RC6 como salida
     TRISAbits.TRISA5=1; //Puerto RA5 como entrada
     TRISAbits.TRISA7=1; //Puerto  RA7 como entrada
-    WPUAbits.WPUA5=1; //Habilita resistencia Pull-UP en RA0
+    WPUAbits.WPUA5=1; //Habilita resistencia Pull-UP en RA5
     WPUAbits.WPUA7=1; //Habilita resistencia Pull-UP en RA7
     //Ciclo infinito
     while(1){
