@@ -3,7 +3,7 @@
 // Dispositivo: PIC16F18877
 // Práctica 2.6
 // Autores: Brandon Eduardo Palacios García, Javier Camacho Pérez, Ramcés Mohamed Hernández Romero
-// Fecha: Septiembre 13, 2018
+// Fecha: Septiembre 17, 2018
 
 // I/O List
 //Inputs************************************************************************
